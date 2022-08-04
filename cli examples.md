@@ -21,7 +21,7 @@ kafka-topics --bootstrap-server broker-2:9092 \
 docker exec broker-1 \
 kafka-topics --bootstrap-server localhost:9092 \
 --create \
---topic logs \
+--topic AwsomeTopicName \
 --partitions 3 \
 --replication-factor 3 
 
