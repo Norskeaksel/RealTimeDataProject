@@ -1,0 +1,2 @@
+v1
+{"path":"file:///home/jovyan/output/kafka_0.parquet/part-00000-9dd26ffb-3f4f-4a2b-a845-88c0d6409236-c000.snappy.parquet","size":15780,"isDir":false,"modificationTime":1659613041157,"blockReplication":1,"blockSize":33554432,"action":"add"}
