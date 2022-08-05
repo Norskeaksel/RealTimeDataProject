@@ -1,5 +1,5 @@
 0
-55
+58
 __consumer_offsets 13 0
 __consumer_offsets 46 0
 __consumer_offsets 9 0
@@ -11,6 +11,7 @@ __consumer_offsets 30 0
 __consumer_offsets 26 0
 __consumer_offsets 5 2
 __consumer_offsets 38 0
+UsefullAPIResults 2 0
 __consumer_offsets 1 0
 __consumer_offsets 34 0
 __consumer_offsets 16 0
@@ -43,6 +44,7 @@ __consumer_offsets 7 2
 __consumer_offsets 40 0
 __consumer_offsets 3 0
 __consumer_offsets 36 0
+UsefullAPIResults 0 0
 __consumer_offsets 47 0
 __consumer_offsets 14 0
 __consumer_offsets 43 0
@@ -55,3 +57,4 @@ __consumer_offsets 39 0
 __consumer_offsets 6 0
 __consumer_offsets 35 0
 __consumer_offsets 2 0
+UsefullAPIResults 1 0

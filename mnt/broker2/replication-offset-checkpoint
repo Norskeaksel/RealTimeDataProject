@@ -1,5 +1,5 @@
 0
-55
+58
 __consumer_offsets 29 3
 __consumer_offsets 43 0
 __consumer_offsets 0 0
@@ -32,13 +32,16 @@ __consumer_offsets 45 0
 __consumer_offsets 16 0
 __consumer_offsets 10 0
 __consumer_offsets 11 0
+UsefullAPIResults 2 200
 _schemas 0 2
 __consumer_offsets 20 0
 __consumer_offsets 47 3
 __consumer_offsets 18 0
 __consumer_offsets 7 6
 __consumer_offsets 48 3
+UsefullAPIResults 1 0
 AwsomeTopicName 1 0
+UsefullAPIResults 0 0
 StupidLameShit 0 0
 __consumer_offsets 22 0
 AwsomeTopicName 2 9
