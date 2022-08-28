@@ -13,6 +13,8 @@ Start up all the services:
 docker compose up -d
 ```
 
+Try to run the kafka_generator file and pip install any missing dependencies.
+
 ## Postgres
 Using a DBeaver, establish a connection with the postgres database. Connection settings:
 Host:port = localhost:5432
