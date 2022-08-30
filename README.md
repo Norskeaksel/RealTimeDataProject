@@ -5,7 +5,7 @@ This projects serves as a baselime for how to create a data pipeline with docker
 ## Prerequisites 
 - Docker Desktop
 - DBeaver
-- Python
+- Python (with pip install)
 
 Start up all the services:
 
