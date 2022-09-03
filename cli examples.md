@@ -33,11 +33,11 @@ kafka-topics --bootstrap-server localhost:9092 \
 
 # view detailed info about topic
 
-docker exec broker-1 kafka-topics --bootstrap-server localhost:9092 --describe --topic logs
+docker exec broker-1 kafka-topics --bootstrap-server localhost:9092 --describe --topic test
 
 docker exec broker-1 \
 kafka-topics --bootstrap-server localhost:9092 \
---describe --topic logs
+--describe --topic test
 
 # simple produce and consume
 docker exec --interactive --tty broker-1 \
