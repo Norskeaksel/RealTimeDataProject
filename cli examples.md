@@ -4,7 +4,7 @@
 docker exec broker-3 \
 kafka-topics --bootstrap-server broker-3:9092 \
 --create \
---topic sales
+--topic test
 
 docker exec broker-2 \
 kafka-topics --bootstrap-server localhost:9092 \
@@ -21,21 +21,19 @@ kafka-topics --bootstrap-server broker-2:9092 \
 docker exec broker-1 \
 kafka-topics --bootstrap-server localhost:9092 \
 --create \
---topic UsefullAPIResults \
+--topic US \
 --partitions 3 \
 --replication-factor 3 
 
 # view existing topics
 
-docker exec broker-1 \
+docker exec broker-2 \
 kafka-topics --bootstrap-server localhost:9092 \
 --list
 
 # view detailed info about topic
 
-docker exec broker-1 kafka-topics --bootstrap-server localhost:9092 --describe --topic test
-
-docker exec broker-1 \
+docker exec broker-3 \
 kafka-topics --bootstrap-server localhost:9092 \
 --describe --topic test
 
@@ -46,7 +44,7 @@ kafka-console-producer --bootstrap-server localhost:9092 \
 
 docker exec --interactive --tty broker-1 \
 kafka-console-consumer --bootstrap-server localhost:9092 \
---topic test --from-beginning
+--topic US --from-beginning
 
 # Schema registry
 # https://docs.confluent.io/platform/current/schema-registry/develop/using.html#
