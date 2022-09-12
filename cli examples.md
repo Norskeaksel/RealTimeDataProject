@@ -44,7 +44,7 @@ kafka-console-producer --bootstrap-server localhost:9092 \
 
 docker exec --interactive --tty broker-1 \
 kafka-console-consumer --bootstrap-server localhost:9092 \
---topic US --from-beginning
+--topic test --from-beginning
 
 # Schema registry
 # https://docs.confluent.io/platform/current/schema-registry/develop/using.html#
