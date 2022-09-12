@@ -1,6 +1,6 @@
 # Real-time data pipeline
 
-This projects serves as a baselime for how to create a data pipeline with docker and python, from an API to Grafana, using Kafka, Spark and postgres. 
+This projects serves as a baseline for how to create a data pipeline with docker and python, from an API to Grafana, using Kafka, Spark and postgres. 
 
 ## Prerequisites 
 - Docker Desktop
